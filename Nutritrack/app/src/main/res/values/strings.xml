@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Nutritrack</string>
+    <string name="title_activity_login_page">LoginPage</string>
+    <string name="title_activity_questionnaire_page">QuestionnairePage</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="title_activity_insight_page">InsightPage</string>
+    <string name="title_activity_food_quality_page">FoodQualityPage</string>
+    <string name="title_activity_settings_page">SettingsPage</string>
+    <string name="title_activity_nutri_coach_screen">NutriCoachScreen</string>
+    <string name="title_activity_clinician_dashboard">ClinicianDashboard</string>
+    <string name="title_activity_nutri_coach_page">NutriCoachPage</string>
+    <string name="results_placeholder"></string>
+    <string name="title_activity_coach_page">CoachPage</string>
+    <string name="title_activity_notification_page">NotificationPage</string>
+    <string name="title_activity_reminder_page">ReminderPage</string>
+    <string name="title_activity_nutri_chat_page">NutriChatPage</string>
+</resources>

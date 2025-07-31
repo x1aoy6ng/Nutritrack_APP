@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nutritrack"
+        tools:targetApi="31">
+        <activity
+            android:name=".features.nutricoach.NutriCoachPage"
+            android:exported="false"
+            android:label="@string/title_activity_nutri_coach_page"
+            android:theme="@style/Theme.Nutritrack" />
+        <activity
+            android:name=".features.clinician.ClinicianDashboard"
+            android:exported="false"
+            android:label="@string/title_activity_clinician_dashboard"
+            android:theme="@style/Theme.Nutritrack" />
+        <activity
+            android:name=".features.settings.SettingsPage"
+            android:exported="false"
+            android:label="@string/title_activity_settings_page"
+            android:theme="@style/Theme.Nutritrack" />
+        <activity
+            android:name=".features.home.HomePage"
+            android:exported="false"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/Theme.Nutritrack" />
+        <activity
+            android:name=".features.insights.InsightPage"
+            android:exported="false"
+            android:label="@string/title_activity_insight_page"
+            android:theme="@style/Theme.Nutritrack" />
+        <activity
+            android:name=".features.questionnaire.QuestionnairePage"
+            android:exported="false"
+            android:label="@string/title_activity_questionnaire_page"
+            android:theme="@style/Theme.Nutritrack" />
+        <activity
+            android:name=".features.login.LoginPage"
+            android:exported="false"
+            android:label="@string/title_activity_login_page"
+            android:theme="@style/Theme.Nutritrack" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Nutritrack">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
